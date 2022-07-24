@@ -19,6 +19,39 @@ export class ResumeProject extends Component {
               </strong>
             </h5>
             <SingleProject
+              type="Mobile App"
+              name="Foodini"
+              tech="React Native, react-native Element, Firebase"
+              description=" After getting selected for a startup program, we came up with
+              the idea of creating a food delivery app that provided
+              knowledge about cultural dishes and focused primarily on
+              dishes rather than the restaurant.
+              It was built with React Native for the frontend and JavaScript for
+              some Interactive features.
+              Google firebase services such as firestore to store data of the
+              users and data we provided like dishes information and firebase
+              functions for our backend for user to interact with our app
+              seamlessly.
+              Came 2nd and won $10,000 for the startup funded by the city
+              college of New York, NY, and came 1st and won $5,000 for BNY
+              Mellon program, NY."
+            />
+             <SingleProject
+              type="Web App"
+              name="COVID Tracker"
+              tech="React Js, Material-mdl, react-router-dom"
+              description=" In tough times of COVID-19, built a static web page using
+              ReactJS for users to track COVID cases throughout the world by
+              using open-source API for the data."
+            />
+             <SingleProject
+              type="Mobile App"
+              name="Notes App"
+              tech="React Native"
+              description="Notes Application was created to keep track of your day to day
+              TODO list with React Native and Pure JavaScript."
+            />
+            <SingleProject
               type="Web App"
               name="Personal Portfolio"
               tech="React Js, Material-mdl, react-router-dom"

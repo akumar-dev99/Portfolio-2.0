@@ -15,7 +15,7 @@ export class Blog extends Component {
           exit={{ opacity: 0 }}
         >
        <div>  
-         <BlogNavbar />
+         {/* <BlogNavbar /> */}
        </div>
         <Cards />
       </motion.div>

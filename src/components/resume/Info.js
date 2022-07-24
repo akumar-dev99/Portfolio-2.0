@@ -9,7 +9,7 @@ export class Info extends Component {
                         <div style={{ justifyContent: 'start', display: 'block'}}>
 
                             <h6>Website:</h6>
-                            <strong>amitkumarwebsite.com</strong>
+                            <strong>https://amitkumarwebsite.netlify.app/</strong>
                             <hr style={{ borderTop: '1px solid 	#A9A9A9', width: '80%' }} />
                             <h6>Traits:</h6>
                             <strong>Leadership<br/></strong>

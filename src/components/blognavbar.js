@@ -15,10 +15,10 @@ export class BlogNavbar extends Component {
         <div class="nav-content">
           <ul class="tabs tabs-transparent">
             <li class="tab">
-              <Link to="/interest">Interests</Link>
+              <Link to="/blog/interest">Interests</Link>
             </li>
             <li class="tab">
-              <Link to="">
+              <Link to="/blog/background">
                 Background
               </Link>
             </li>
@@ -26,10 +26,10 @@ export class BlogNavbar extends Component {
         </div>
       </div>
       <Switch>
-        <Route exact path="/interest">
+        <Route exact path="/blog/interest">
           <Interest/>
         </Route>
-        <Route path ="/background">
+        <Route path ="/blog/background">
           <Background/>
         </Route>
       </Switch>
